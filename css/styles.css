@@ -1,0 +1,60 @@
+canvas {
+	background-color:#FFF;
+	border:#999 1px solid;
+}
+
+.row{
+	margin-top: 1rem;
+}
+
+.ribbon {
+	width:100%;
+	margin: 0;
+	display:flex;
+	align-item:center;
+	justify-content:center;
+	padding-top:1rem;
+	padding-bottom:1rem;
+	font-size:1.5rem;
+	color:#FFF;
+}
+
+.pri-color{
+	background-color: #F7F5F6;
+}
+
+.sec-color{
+	background-color: #371560;
+}
+
+.trd-color{
+	background-color: #F76C65;
+}
+
+#btnphoto{
+	width:16rem;
+}
+
+#btnsave{
+	width:20rem;
+	font-weight: bolder;
+}
+
+.btn-info, .btn-info:visited{
+	background-color: #371560 !important;
+	border-color: #371560 !important;
+}
+
+.btn-info:hover, .btn-info:active{
+  background-color: #4E208E !important;
+}
+
+.btn-warning, .btn-warning:visited{
+	background-color: #ED109E !important;
+	border-color: #ED109E !important;
+	color: #371560 !important;
+}
+
+.btn-warning:hover, .btn-warning:active{
+  background-color: #FF11AB !important;
+}
